@@ -16,13 +16,17 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
 import { CardComponent } from './card/card.component';
+import { DevicesComponent } from './devices/devices.component';
+import { ChartComponent } from './chart/chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     DashComponent,
-    CardComponent
+    CardComponent,
+    DevicesComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
